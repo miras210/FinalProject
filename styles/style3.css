@@ -1,0 +1,211 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #2E2E2E;
+    font-family: 'Heebo', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 130px;
+    border-left: 1px solid #535353;
+    border-right: 1px solid #535353;
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.navigation_bar {
+    overflow: hidden;
+    background-color: #111111;
+    min-height: 130px;
+    z-index: 2;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    line-height: 130px;
+}
+
+.navigation #logo {
+    margin-right: auto;
+}
+
+.navigation a {
+    font-weight: 500;
+    margin-left: 55px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 10%;
+    transition: ease-out 400ms;
+}
+
+.navigation a:hover {
+    color: #ff0033;
+    text-decoration: #ff0033 underline;
+}
+
+.main {
+  width: 100%;
+  background-color: #2E2E2E;
+}
+
+.contact_us {
+  margin-top: 3rem;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.contact_us .contact_us-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 450px;
+}
+
+.contact_us .contact_us-form .h1 {
+  margin-bottom: -10px;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact_us .contact_us-form .h3 {
+  color: #76766F;
+}
+.contact_us .contact_us-form input, .contact_us .contact_us-form textarea {
+  margin-bottom: 2rem;
+  background-color: transparent;
+  padding: 10px 15px;
+  resize: none;
+  color: #fff;
+  border: 1.5px solid #646464;
+}
+
+.contact_us .contact_us-form input::placeholder, .contact_us .contact_us-form textarea::placeholder {
+  text-transform: uppercase;
+}
+
+.contact_us .contact_us-form input {
+  width: 150px;
+}
+
+.contact_us .contact_us-form input[type=submit] {
+  background-color: #FF0033;
+  margin: auto;
+  border: none;
+  width: 125px;
+  height: 45px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.contact_us-form .first-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.map {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.h1 {
+  margin-bottom: 10px;
+  font-size: 1.6rem;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+}
+
+.footer .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.footer .inner .left {
+    color: #676767;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.footer .inner .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .inner .right .talk-to-us {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    width: 250px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    margin-right: 170px;
+    transition: ease-out 300ms;
+}
+
+.footer .inner .right .talk-to-us:hover {
+    color: #111111;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.footer .inner .right img {
+    margin-left: 30px;
+}
+
+#login, #password, #email {
+    margin-left: 50px;
+    width: 300px;
+}
+
+.h3 {
+  color: white;
+}

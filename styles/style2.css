@@ -1,0 +1,184 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #ffffff;
+    font-family: 'Heebo', sans-serif;
+}
+
+.wrapper {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    min-height: 130px;
+    border-left: 1px solid #c4c4c4;
+    border-right: 1px solid #c4c4c4;
+    box-sizing: border-box;
+}
+
+.inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: inherit;
+}
+
+.navigation_bar {
+    overflow: hidden;
+    background-color: #111111;
+    min-height: 130px;
+    z-index: 2;
+}
+
+#logo:hover {
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    line-height: 130px;
+}
+
+.navigation #logo {
+    margin-right: auto;
+}
+
+.navigation a {
+    font-weight: 500;
+    margin-left: 55px;
+    text-decoration: none;
+    color: #ffffff;
+    letter-spacing: 10%;
+    transition: ease-out 400ms;
+}
+
+.navigation a:hover {
+    color: #ff0033;
+    text-decoration: #ff0033 underline;
+}
+
+.main-header {
+    width: 100%;
+    height: 450px;
+    text-align: center;
+    background-image: url(imgs/background.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main-header .inner {
+    font-size: 28px;
+    font-weight: 300;
+    color: #ff0033;
+    padding-top: 150px;
+}
+
+.main {
+    width: 100%;
+    height: 1200px;
+}
+
+.main .intro {
+    color: #000000;
+    font-size: 22px;
+    font-weight: 200;
+    text-align: justify;
+    padding-left: 220px;
+    margin-top: 100px;
+    margin-bottom: 70px;
+}
+
+.main .video {
+    padding-left: 300px;
+    margin-bottom: 70px;
+}
+
+.about-me {
+    text-align: center;
+}
+
+.about-me .title {
+    color: #ff0033;
+    font-size: 28px;
+    font-weight: 200;
+}
+
+.photo {
+    width: 240px;
+    height: 320px;
+    border: 1px solid #111111;
+    background-image: url(imgs/Me.jpg);
+    background-size: cover;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.about-me .name {
+    font-size: 24px;
+    font-weight: 300;
+}
+
+.about-me .info {
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #111111;
+}
+
+.footer .inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.footer .inner .left {
+    color: #676767;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 50px;
+}
+
+.footer .inner .right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.footer .inner .right .talk-to-us {
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 18px;
+    text-align: center;
+    line-height: 50px;
+    width: 250px;
+    height: 50px;
+    border: 3px solid #ffffff;
+    margin-right: 170px;
+    transition: ease-out 300ms;
+}
+
+.footer .inner .right .talk-to-us:hover {
+    color: #111111;
+    background-color: #ffffff;
+    cursor: pointer;
+}
+
+.footer .inner .right img {
+    margin-left: 30px;
+}
